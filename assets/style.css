@@ -5,9 +5,21 @@
     font-family: "Fira Sans", sans-serif;
 }
 
+.site-title{
+    display: flex;
+    justify-content: center;
+
+    margin-top: 5vh;
+
+    font-size: 80px;
+    font-weight: normal;
+    font-family: 'Inter', sans-serif;
+    font-style: italic;
+}
+
 body {
     /*background-color: #d5a4fb;*/
-    background-image: linear-gradient(to bottom right, #c4c4c4, rgb(70, 70, 70));
+    background-image: linear-gradient(to bottom right, #EBE0D0, rgb(70, 70, 70));
 }
 
 .app-wrapper {
@@ -19,9 +31,9 @@ body {
 /* fundo do player */
 
 .player {
-    background-color: #101010;
-    padding: 100px 50px;
-    width: 414px;
+    background-color: #9a5074;
+    padding: 25px 50px;
+    width: 705px;
     max-width: 100%;
     border-radius: 16px;
     box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2);
@@ -31,14 +43,14 @@ body {
 
 .song-img {
     position: relative;
-    display: block;
+    display: inline-block;
     margin: 0 auto;
-    width: 300px;
+    width: 200px;
     background-color: #FE4880;
     border-radius: 2%;
     box-shadow: 0px 2px 20px rgba(243, 243, 235, 0.6);
 
-    margin-bottom: 50px;
+    margin-bottom: 45px;
 
     background-position: center;
     background-size: cover;
@@ -48,7 +60,7 @@ body {
 .song-img:after {
     content: '';
     padding-top: 100%;
-    display: block;
+    display: inline-block;
 }
 
 /* contorno neon da imagem
@@ -62,11 +74,13 @@ body {
     bottom: -20px;
     border: 2px solid #E300c4;
     border-radius: 2%;
-}*/
+} */
 
 .song-details {
-    text-align: center;
-    margin-bottom: 30px;
+    display: inline-block;
+
+    min-block-size: 100%;
+    margin-left: 10%;
 }
 
 .song-details h2 {

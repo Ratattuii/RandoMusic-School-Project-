@@ -9,7 +9,7 @@
     display: flex;
     justify-content: center;
 
-    margin-top: 5vh;
+    margin-top: 10vh;
 
     font-size: 80px;
     font-weight: normal;
@@ -31,8 +31,9 @@ body {
 /* fundo do player */
 
 .player {
-    background-color: #9a5074;
+    background-color: #b65885;
     padding: 25px 50px;
+    margin-bottom: 10vh;
     width: 705px;
     max-width: 100%;
     border-radius: 16px;
@@ -93,7 +94,7 @@ body {
 .song-details h3 {
     font-size: 16px;
     font-weight: 500;
-    color: #888;
+    color: #acaaaa;
 }
 
 .player-controls {
@@ -110,7 +111,7 @@ body {
     width: 75px;
     height: 75px;
     border-radius: 50%;
-    background-color: #f4f84d;
+    background-color: #d9db68;
     color: #101010;
     margin: 0 30px;
 
@@ -138,7 +139,7 @@ body {
 }
 
 .next-up p {
-    color: #888;
+    color: #acaaaa;
     text-align: center;
     font-weight: 500;
     font-size: 16px;
@@ -155,4 +156,23 @@ body {
         border-radius: 0px;
         padding: 75px 30px;
     }
+}
+
+.btn{
+    height: fit-content;
+    width: fit-content;
+    border: none;
+    box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.2) !important;
+    background-color: #CB5D92 !important;
+    border: none !important;
+}
+
+.btn-page-label{
+    font-weight: bold;
+}
+
+.page-button{
+    display: flex;
+    justify-content: center;
+    height: 10rem;
 }

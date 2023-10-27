@@ -15,21 +15,21 @@ window.onload = () => {
     let songs = [
         {
             title: 'Rap do Minecraft',
-            artist: 'Por BngOficial',
+            artist: 'BngOficial',
             song_path: './music/RAP DO MINECRAFT ♫.mp3',
             img_path: './assets/images/minecraft.jpg'
         },
         {
-            title: '',   
-            artist: 'Por ',
-            song_path: 'music/',
-            img_path: './assets/images/'
+            title: 'Everything I Got',   
+            artist: 'Shiah Maisel, Clarx',
+            song_path: 'music/Shiah Maisel & Clarx - Everything I Got [NCS Release].mp3',
+            img_path: './assets/images/everything_i_got.jpg'
         },
         {
-            title: '',
-            artist: '',
-            song_path: 'music/',
-            img_path: './assets/images/'
+            title: 'Circle',
+            artist: 'Halvorsen, Netrum',
+            song_path: 'music/Netrum & Halvorsen - Circle [NCS Release].mp3',
+            img_path: './assets/images/circle.jpg'
         }
     ];
 

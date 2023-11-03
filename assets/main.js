@@ -40,7 +40,6 @@ window.onload = () => {
     InitPlayer();
 
     function InitPlayer() {
-        // Inicialize o índice atual de forma aleatória
         current_song_index = getRandomIndex(songs.length);
         next_song_index = getRandomIndex(songs.length);
         UpdatePlayer();

@@ -19,7 +19,6 @@
 }
 
 body {
-    /*background-color: #d5a4fb;*/
     background-image: linear-gradient(to bottom right, #EBE0D0, rgb(70, 70, 70));
     min-height: 100vh;
 }

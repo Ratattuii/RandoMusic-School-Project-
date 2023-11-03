@@ -1,4 +1,4 @@
-# RandoMusic
+# [RandoMusic](https://ratattuii.github.io/RandoMusic-School-Project-/) 
 Um player de música onde você não precisa se preocupar com qual será a próxima faixa que você vai escutar
 
 ## Objetivo
